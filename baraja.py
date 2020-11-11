@@ -1,15 +1,13 @@
 import random
-palos = ["o", "c", "e", "b"]
-numeros = ["A", "2", "3", "4", '5', '6', '7', 'S', 'C', 'R']
+
 
 #creacion de la baraja
-def crearBaraja():
+def crearBaraja(palos, numeros):
     baraja = []
     for palo in palos:
         for numero in numeros:
             baraja.append(numero+palo)
     return baraja
-print(crearBaraja())
 
 
 #barajarla
@@ -22,5 +20,4 @@ def barajar(lista_de_naipes):
         lista_de_naipes[i] = aux
     return lista_de_naipes
 
-print(barajar(crearBaraja()))
 
