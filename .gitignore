@@ -1,1 +1,4 @@
 .vscode/
+__pycache__/
+__pycache__/baraja.cpython-38.pyc
+__pycache__/barajaC.cpython-38.pyc
